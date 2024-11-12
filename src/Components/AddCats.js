@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Form() {
+function AddCats() {
   return (
     <div>Form</div>
   );
 }
 
-export default Form;
+export default AddCats;

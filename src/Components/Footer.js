@@ -2,7 +2,9 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div>Footer</div>
+   <footer>
+    <small>&copy; 2024</small>
+   </footer>
   );
 }
 
