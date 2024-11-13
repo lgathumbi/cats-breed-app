@@ -12,7 +12,7 @@ function Home() {
 
   return (
     <>
-    <h1 style={{textAlign:"center"}}>Cats Breeds </h1>
+   
     <div className="cat-list">
       {cats.length > 0 ? (
         cats.map((cat) => <CatCard key={cat.id} cat={cat} />)
@@ -30,13 +30,6 @@ function CatCard({ cat }) {
       <img src={cat.image} alt={cat.name} className="cat-image" />
       <div className="cat-info">
         <h3 className="cat-name">{cat.name}</h3>
-        <p className="cat-description">{cat.description}</p>
-        <p className="cat-color">{cat.color}</p>
-        <ul className="cat-traits">
-          {cat.traits && cat.traits.map((trait, index) => (
-            <li key={index} className="cat-trait">{trait}</li>
-          ))}
-        </ul>
       </div>
     </div>
   );
