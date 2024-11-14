@@ -1,91 +1,91 @@
 {
   "breeds": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Siamese",
       "description": "They are vocal, social, and affectionate.",
       "image": "https://missyandzeus.com/wp-content/uploads/2024/09/siamese-cats.png"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Maine Coon",
       "description": "They are known for their intelligence and playful nature.",
       "image": "https://cdn-ilahdjb.nitrocdn.com/nFBgKJwKnUMTgpMIKltbJvrFssdnNcoU/assets/images/optimized/rev-d537999/lapa.shop/wp-content/uploads/2024/01/mco3.jpg.pagespeed.ce.L9q_qs1HOV-381x.jpg"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Persian",
       "description": "They have a long, luxurious coat and a calm temperament.",
       "image": "https://cdn.shopify.com/s/files/1/0589/8262/9516/t/23/assets/persian-cat-pictures-21hn32h4yempw0cu-1702031742033.jpg?v=1702031743"
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Ragdoll",
       "description": "They are large, gentle, and affectionate.",
       "image": "https://www.petcustomi.com/cdn/shop/articles/98.png?v=1712717570"
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Scottish Fold",
       "description": "They are sweet, calm, and social.",
       "image": "https://www.rover.com/blog/wp-content/uploads/2019/08/scottish-fold-white-683x1024.jpg"
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Sphynx",
       "description": "They are affectionate and enjoy human interaction.",
       "image": "https://www.pawaii.com/cdn/shop/articles/pw-blog-All-You-Need-To-Know-About-Hairless-Cats-img2.jpg?v=1692339414"
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "Abyssinian",
       "description": "They are known for their short, ticked coat and playful nature.",
       "image": "https://petinsurance.com.au/wp-content/uploads/2016/07/Abyssinian_961x558-1.jpg"
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "British Shorthair",
       "description": "They are calm and affectionate but independent.",
       "image": "https://i.redd.it/at-what-age-will-he-reach-full-size-v0-0m16qt62ih0b1.jpg?width=3024&format=pjpg&auto=webp&s=8b5c0b960f33bc4bf6762c02c65f69947f7a74bb"
     },
     {
-      "id": 9,
+      "id": "9",
       "name": "Russian Blue",
       "description": "They are calm and tend to form strong bonds with their owners.",
       "image": "https://a-z-animals.com/media/2019/11/Russian-Blue-on-basket-1024x535.jpg"
     },
     {
-      "id": 10,
+      "id": "10",
       "name": "Norwegian Forest Cat",
       "description": "They are large, strong, and muscular.",
       "image": "https://www.purina.co.uk/sites/default/files/styles/square_medium_440x440/public/2022-06/Norwegian%20Forest.2.jpg?h=ccdd1b23&itok=tJARI68s"
     },
     {
-      "id": 11,
+      "id": "11",
       "name": "Burmese",
       "description": "They love to be the center of attention.",
       "image": "https://www.zooplus.co.uk/magazine/wp-content/uploads/2021/09/Burmese.jpg"
     },
     {
-      "id": 12,
+      "id": "12",
       "name": "Devon Rex",
       "description": "They are small, with large ears and curly fur.",
       "image": "https://cdn.shopify.com/s/files/1/2668/1922/files/devon-rex-portrait.jpg?v=1689016765"
     },
     {
-      "id": 13,
+      "id": "13",
       "name": "American Shorthair",
       "description": "Thet are known for their muscular bodies and calm demeanor.",
       "image": "https://www.thegreatcat.org/wp-content/uploads/2020/01/American-Shorthair-Cat-2-1250x834.jpg"
     },
     {
-      "id": 14,
+      "id": "14",
       "name": "Manx",
       "description": "They are friendly and playful.",
       "image": "https://media.graphassets.com/resize=height:360,width:1280/output=format:webp/rZsW3LvHRaGGRBXMQ4dj?width=1280"
     },
     {
-      "id": 15,
+      "id": "15",
       "name": "Savannah",
       "description": "They are large and have a striking spotted coat.",
       "image": "https://namingcat.com/wp-content/uploads/2024/06/Savannah-Cat-Names.png"
@@ -94,6 +94,12 @@
       "id": "aeba",
       "name": "Lorna",
       "image": "https://publish.purewow.net/wp-content/uploads/sites/2/2022/01/rarest-cat-breeds.jpg?resize=720%2C780",
+      "description": "They are calm"
+    },
+    {
+      "id": "1e92",
+      "name": "Lorna",
+      "image": "2wCEAAkGBxMTEhUSExMWFhUWGR0XGRgYGSAbHRsYHh0aHhsgHh0fHSggGBolGxoaITEjJikuLi4uGyAzODMtNygtLisBCgoKDg0OGxAQGy0lICYwLS0tLS8tLTctLTUtLS0tLy0tLy0tLS0tLS8tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf",
       "description": "They are calm"
     }
   ]
