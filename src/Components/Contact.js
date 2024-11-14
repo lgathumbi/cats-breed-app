@@ -3,12 +3,22 @@ import React from 'react'
 function Contact() {
   return (
     <>
-        <h2>Contact Us</h2>
-        <p>If you have any questions or need further assistance, feel free to reach out to us.</p>
-      <p>Email us at:"nyawiralorna@gmail.com"</p>
-      <p>Or call us at:0114780469</p>
+     <h1 className="contact-form" style={{justifyContent:"center", textAlign:"center", color:"orangered"}}>Contact Me</h1>
+     <form >
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required/>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required/>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message"  rows="5" required/>
+
+        <button type="submit">Send Message</button>
+        
+     </form>
     </>
-  
+        
     )
 }
 export default Contact;
