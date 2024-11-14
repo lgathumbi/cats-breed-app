@@ -8,7 +8,7 @@ function Home() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch("http://localhost:3000/breeds")
+    fetch("https://json-server-backend-hpd7.onrender.com/breeds")
       .then(res => res.json())
       .then(data => {
         setCats(data);
