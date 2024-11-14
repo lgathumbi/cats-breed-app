@@ -1,342 +1,100 @@
 {
-    "breeds": [
-      {
-        "id": 1,
-        "name": "Siamese",
-        "description": "Siamese cats are known for their striking blue almond-shaped eyes and sleek, short coat. They are vocal, social, and affectionate.",
-        "image": "https://missyandzeus.com/wp-content/uploads/2024/09/siamese-cats.png"
-      },
-      {
-        "id": 2,
-        "name": "Maine Coon",
-        "description": "Maine Coon cats are large, friendly, and have long, thick fur. They are often called 'gentle giants' and are known for their intelligence and playful nature.",
-        "image": "https://cdn-ilahdjb.nitrocdn.com/nFBgKJwKnUMTgpMIKltbJvrFssdnNcoU/assets/images/optimized/rev-d537999/lapa.shop/wp-content/uploads/2024/01/mco3.jpg.pagespeed.ce.L9q_qs1HOV-381x.jpg" 
-      },
-      {
-        "id": 3,
-        "name": "Persian",
-        "description": "Persian cats have a long, luxurious coat and a calm temperament. They prefer a relaxed environment and are not as active as some other breeds.",
-        "image": "https://cdn.shopify.com/s/files/1/0589/8262/9516/t/23/assets/persian-cat-pictures-21hn32h4yempw0cu-1702031742033.jpg?v=1702031743"
-      },
-      {
-        "id": 4,
-        "name": "Ragdoll",
-        "description": "Ragdoll cats are large, gentle, and affectionate. They are known for their soft, silky fur and their tendency to go limp when picked up, like a ragdoll.",
-        "image": "https://www.petcustomi.com/cdn/shop/articles/98.png?v=1712717570"
-      },
-      {
-        "id": 5,
-        "name": "Scottish Fold",
-        "description": "Scottish Fold cats are known for their unique ears, which fold forward and downward. They are sweet, calm, and social.",
-        "image": "https://www.rover.com/blog/wp-content/uploads/2019/08/scottish-fold-white-683x1024.jpg"
-      },
-      {
-        "id": 6,
-        "name": "Sphynx",
-        "description": "Sphynx cats are hairless and have a distinct, wrinkled appearance. They are affectionate and enjoy human interaction.",
-        "image": "https://www.pawaii.com/cdn/shop/articles/pw-blog-All-You-Need-To-Know-About-Hairless-Cats-img2.jpg?v=1692339414"
-      },
-      {
-        "id": 7,
-        "name": "Abyssinian",
-        "description": "Abyssinians are highly energetic and intelligent cats. They are known for their short, ticked coat and playful nature.",
-        "image": "https://petinsurance.com.au/wp-content/uploads/2016/07/Abyssinian_961x558-1.jpg"
-    
-      },
-      {
-        "id": 8,
-        "name": "British Shorthair",
-        "description": "British Shorthairs are known for their round faces, large eyes, and dense, plush coat. They are calm and affectionate but independent.",
-        "image": "https://i.redd.it/at-what-age-will-he-reach-full-size-v0-0m16qt62ih0b1.jpg?width=3024&format=pjpg&auto=webp&s=8b5c0b960f33bc4bf6762c02c65f69947f7a74bb"
-      },
-      {
-        "id": 9,
-        "name": "Russian Blue",
-        "description": "Russian Blue cats are elegant, with a short, dense blue-gray coat. They are calm, reserved, and tend to form strong bonds with their owners.",
-        "image": "https://a-z-animals.com/media/2019/11/Russian-Blue-on-basket-1024x535.jpg"
-      },
-      {
-        "id": 10,
-        "name": "Norwegian Forest Cat",
-        "description": "Norwegian Forest Cats are large, strong, and muscular. They have a thick double coat that protects them from cold climates.",
-        "image": "https://www.purina.co.uk/sites/default/files/styles/square_medium_440x440/public/2022-06/Norwegian%20Forest.2.jpg?h=ccdd1b23&itok=tJARI68s"
-      },
-      {
-        "id": 11,
-        "name": "Burmese",
-        "description": "Burmese cats are known for their sleek, muscular build and friendly, sociable nature. They love to be the center of attention.",
-        "image": "https://www.zooplus.co.uk/magazine/wp-content/uploads/2021/09/Burmese.jpg"
-      },
-      {
-        "id": 12,
-        "name": "Devon Rex",
-        "description": "Devon Rex cats are small, with large ears and curly fur. They are highly affectionate and love to interact with people.",
-        "image": "https://cdn.shopify.com/s/files/1/2668/1922/files/devon-rex-portrait.jpg?v=1689016765"
-      },
-      {
-        "id": 13,
-        "name": "American Shorthair",
-        "description": "American Shorthairs are known for their muscular bodies and calm demeanor. They are easygoing and enjoy companionship.",
-        "image": "https://www.thegreatcat.org/wp-content/uploads/2020/01/American-Shorthair-Cat-2-1250x834.jpg"
-      },
-      {
-        "id": 14,
-        "name": "Manx",
-        "description": "Manx cats are distinct for their lack of a tail, though some may have short or long tails. They are friendly and playful.",
-        "image": "https://media.graphassets.com/resize=height:360,width:1280/output=format:webp/rZsW3LvHRaGGRBXMQ4dj?width=1280"
-      },
-      {
-        "id": 15,
-        "name": "Savannah",
-        "description": "Savannah cats are a hybrid breed, part serval (wild cat) and part domestic cat. They are large, active, and have a striking spotted coat.",
-        "image": "https://namingcat.com/wp-content/uploads/2024/06/Savannah-Cat-Names.png"
-      },
-      {
-        "id": 16,
-        "name": "Tonkinese",
-        "description": "Tonkinese cats are a cross between the Siamese and Burmese breeds. They are friendly, social, and have a sleek, muscular body.",
-        "image": "https://cdn.shopify.com/s/files/1/0568/0450/7691/files/414484807_18085228549410442_2847425624223393935_n_600x600.jpg?v=1714665494"
-      },
-      {
-        "id": 17,
-        "name": "Singapura",
-        "description": "Singapura cats are small, with a short, ticked coat. They are highly active, curious, and affectionate.",
-        "image": "https://scrumbles.co.uk/cdn/shop/articles/singapura-cat-breed-guide-891089.jpg?v=1720002120"
-      },
-      {
-        "id": 18,
-        "name": "Chartreux",
-        "description": "Chartreux cats are muscular, medium-sized cats with a thick, blue-gray coat. They are calm, loyal, and intelligent.",
-        "image": "https://www.bluecatfarm.com/Chartreux%20Eartha%20KittDSC_5369.jpg"
-      },
-      {
-        "id": 19,
-        "name": "Birman",
-        "description": "Birmans are affectionate, friendly, and calm cats with striking blue eyes and long, silky coats. They are known for their beautiful color-point markings.",
-        "image": "https://pangovet.com/wp-content/uploads/2024/06/birman-cat-sitting-in-the-garden_Patrik-Slezak-Shutterstock.jpg"
-       },
-        {
-        "id": 20,
-        "name": "Turkish Angora",
-        "description": "Turkish Angoras are graceful, elegant cats with a fine, silky coat and a slender, muscular body. They are energetic and playful.",
-        "image": "https://cpanel.tica.org/images/TopCats/2023/BOB/Turkish%20Angora%201%20Cat%20Xtacy%20Hoogendoorn.jpeg?ml=1"
-        },
-        {
-        "id": 21,
-        "name": "Himalayan",
-        "description": "Himalayan cats are long-haired, color-pointed cats similar to Persians. They are calm, affectionate, and love attention.",
-        "image": "https://cdn.shopify.com/s/files/1/0568/0450/7691/files/Himilayan-Cat-3_600x600.jpg?v=1714651698"
-        },
-        {
-        "id": 22,
-        "name": "Selkirk Rex",
-        "description": "Selkirk Rex cats are unique for their curly fur and playful, friendly nature. They are very social and enjoy human interaction.",
-        "image": "https://cfa.org/wp-content/uploads/2024/05/2022-bw2c-ForeverstarSunny.webp"
-        },
-        {
-        "id": 23,
-        "name": "American Curl",
-        "description": "American Curl cats are known for their distinctive curled ears. They are friendly, playful, and form strong bonds with their owners.",
-        "image": "https://moderncat.com/wp-content/uploads/2015/12/AmericanCurl-640x436.jpg"
-        },
-        {
-        "id": 24,
-        "name": "Japanese Bobtail",
-        "description": "Japanese Bobtail cats are distinctive for their short, bobbed tail. They are active, playful, and known for their curiosity and intelligence.",
-        "image": "https://www.rockthecatspa.com/uploads/1/1/5/5/115599245/kurilian-bobtail-5967721-960-720_orig.jpg"
-        },
-        {
-        "id": 25,
-        "name": "Korat",
-        "description": "Korat cats are known for their silver-blue coat and large, expressive eyes. They are highly affectionate and tend to form strong bonds with their owners.",
-        "image": "https://img.freepik.com/premium-photo/korat-cat-with-its-silverblue-coat-luminous-green-eyes-sitting-regally-traditional-thai-silk-cushion_181667-21452.jpg?w=360"
-        },
-        {
-        "id": 26,
-        "name": "Burmilla",
-        "description": "Burmilla cats are a cross between Burmese and Chinchilla Persian cats. They are sweet-natured and intelligent, with a striking coat.",
-        "image": "https://goofytails.com/cdn/shop/files/burmilla_cat_breed_1000x.jpg?v=1702893070"
-        },
-        {
-        "id": 27,
-        "name": "Cymric",
-        "description": "Cymric cats are similar to the Manx breed but have long fur. They are affectionate and friendly, known for their playful nature.",
-        "image": "https://cats.com/wp-content/uploads/2020/10/Cymric-1.jpg"
-        },
-        {
-        "id": 28,
-        "name": "LaPerm",
-        "description": "LaPerm cats are known for their curly fur and sweet, playful personalities. They are social and love to be the center of attention.",
-        "image": "https://www.pharmacy4pets.com/media/.renditions/wysiwyg/LaPerm.png"
-        },
-        {
-        "id": 29,
-        "name": "Peterbald",
-        "description": "Peterbalds are hairless or partially hairless cats that are highly active and social. They love attention and are very friendly.",
-        "image": "https://www.mondou.com/on/demandware.static/-/Sites-Mondou_CA-Library/default/dw893a6bd6/images/Conseil/chat/peterbald/peter1.jpg"
-        },
-        {
-        "id": 30,
-        "name": "Manx",
-        "description": "Manx cats are known for their taillessness, though some have short or long tails. They are calm, affectionate, and playful.",
-        "image": "https://images.ctfassets.net/m5ehn3s5t7ec/wp-image-197876/dd3db33e29cda4e7463a940a331cd738/Manx-Cat-Breed-Information.jpg"
-        },
-        {
-        "id": 31,
-        "name": "Snowshoe",
-        "description": "Snowshoes are playful, affectionate, and social cats with distinct white markings on their feet, face, and chest.",
-        "image": "https://image.petmd.com/files/inline-images/snowshoe-cat-loaf.jpg?VersionId=__UmLjeXPa7o2KvoKTQIBrKAx38poHYk"
-        },
-        {
-        "id": 32,
-        "name": "Singapura",
-        "description": "Singapura cats are one of the smallest cat breeds. They are very playful and affectionate, with a distinct warm-toned coat.",
-        "image": "https://www.mediastorehouse.com/p/172/singapura-24517580.jpg.webp"
-        },
-        {
-        "id": 34,
-        "name": "Turkish Van",
-        "description": "Turkish Van cats are large, muscular cats known for their love of water. They are active, friendly, and intelligent.",
-        "image": "https://www.purina.co.uk/sites/default/files/styles/square_medium_440x440/public/2022-06/Turkish%20Van.2.jpg?h=21d8c011&itok=EVMB3j2A"
-        },
-        {
-        "id": 35,
-        "name": "Somali",
-        "description": "Somali cats are playful, active, and intelligent. They are known for their rich, warm coat and their love of climbing and exploring.",
-        "image": "https://felineforums.com/attachments/ruddy_somali_female-webp.511/"
-        },
-        {
-        "id": 36,
-        "name": "Havana Brown",
-        "description": "Havana Brown cats are known for their sleek, brown coat and calm, affectionate nature. They are intelligent and love attention.",
-        "image": "https://i.redd.it/6lq02v9fvaw91.jpg"
-        },
-        {
-        "id": 37,
-        "name": "Coon",
-        "description": "American Coon cats are large, friendly, and have long, thick fur. They are often called 'gentle giants' and are known for their intelligence and playful nature.",
-        "image": "https://img1.wsimg.com/isteam/ip/a2f81415-212c-4db8-8cac-e9209e451950/Maine20.jpeg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:1280"
-        },
-        {
-        "id": 38,
-        "name": "American Bobtail",
-        "description": "American Bobtail cats have a distinctive short tail, but are otherwise muscular and athletic. They are friendly and adaptable, making them great companions.",
-        "image": "https://lh4.googleusercontent.com/proxy/ZwAQbdSjb4yKKYUHIChb1R5YauUADKeFwNeKhlvJqx4hsXUluEzhwJLQcEp1sdwzbj_l"
-        },
-        {
-        "id": 39,
-        "name": "Oriental Longhair",
-        "description": "Oriental Longhair cats are known for their long, sleek coats and slender bodies. They are active and enjoy human interaction.",
-        "image": "https://images.ctfassets.net/scac5p2hkp4h/7IXKnaDzZojtEZ7wk1walI/a9e7f494ba4f4d301395af6bcb1e9944/OrientalCat2x.jpg"
-        },
-        {
-        "id": 40,
-        "name": "Australian Mist",
-        "description": "Australian Mist cats are medium-sized, with a calm and friendly nature. They are playful and adaptable, making them excellent family pets.",
-        "image": "https://delicatecare.com.au/wp-content/uploads/2020/12/unnamed.jpg"
-        },
-        {
-        "id": 41,
-        "name": "Tiffanie",
-        "description": "Tiffanie cats are long-haired, affectionate, and sweet-natured. They are social and enjoy spending time with their human companions.",
-        "image": "https://www.zookie.com.au/wp-content/uploads/2023/12/002-143.jpg"
-        },
-        {
-        "id": 42,
-        "name": "Singapura",
-        "description": "Singapura cats are one of the smallest cat breeds. They are energetic, playful, and affectionate, with a soft, warm brown coat.",
-        "image": "https://www.catbreedslist.com/uploads/cat-pictures/singapura-3.jpg"
-        },
-        {
-        "id": 43,
-        "name": "Balinese",
-        "description": "Balinese cats are long-haired versions of the Siamese breed. They are elegant, vocal, and highly social, often forming strong bonds with their owners.",
-        "image": "https://media.graphassets.com/output=format:webp/FGDl7wVTKeMw4AWsqpgK"
-        },
-        {
-        "id": 44,
-        "name": "Russian Blue",
-        "description": "Russian Blue cats are known for their striking blue-gray coat and green eyes. They are reserved, intelligent, and loyal to their family.",
-        "image": "https://www.petsonme.com.au/blog/wp-content/uploads/2023/08/image-33.jpeg"
-        },
-        {
-        "id": 45,
-        "name": "Cheetoh",
-        "description": "Cheetoh cats are a hybrid breed, a cross between Bengals and the Ocicat. They are playful, energetic, and known for their wild leopard-like appearance.",
-        "image": "https://i.pinimg.com/736x/a4/95/15/a4951525caca8afa00626207b738880e.jpg"
-        },
-        {
-        "id": 46,
-        "name": "American Shorthair",
-        "description": "American Shorthair cats are known for their muscular bodies and calm demeanor. They are easygoing and enjoy companionship.",
-        "image": "https://d308toqq2zpasi.cloudfront.net/images/pet_listings/cat/9/b4/dc/id_15334540/7e03ec/american-shorthair-cat-for-adoption_large.jpeg"
-        },
-        {
-        "id": 47,
-        "name": "Chausie",
-        "description": "Chausie cats are a hybrid breed, part wild jungle cat and part domestic cat. They are active, curious, and need plenty of space to roam.",
-        "image": "https://cdn.shopify.com/s/files/1/0568/0450/7691/files/Chausie-3_600x600.jpg?v=1715597909"
-        },
-        {
-        "id": 48,
-        "name": "Tonkinese",
-        "description": "Tonkinese cats are friendly, affectionate, and playful, with a beautiful coat that is silky and soft. They are a mix of Siamese and Burmese breeds.",
-        "image": "https://img1.wsimg.com/isteam/ip/49b3f639-cfbc-4ba4-a4aa-515cef79dc09/blob-d7ff735.png/:/cr=t:0%25,l:0.84%25,w:98.31%25,h:100%25/rs=w:1240,h:1240,cg:true"
-        },
-        {
-        "id": 49,
-        "name": "Sphynx",
-        "description": "Sphynx cats are known for their hairlessness and unique wrinkled appearance. They are affectionate, social, and love attention.",
-        "image": "https://bobbiandthestrays.org/wp-content/uploads/2022/07/289342187_10160481127329114_3806675651079072937_n.jpg"
-        },
-        {
-        "id": 50,
-        "name": "Savannah",
-        "description": "Savannah cats are a hybrid breed that comes from crossing a domestic cat with an African serval. They are large, energetic, and have striking leopard-like markings.",
-        "image": "https://images.squarespace-cdn.com/content/v1/53adb125e4b094aac18a8ee7/3d102391-7096-4f9e-ba54-b9530d6f44de/75%25-F1-Savannah-Cat-F1hybridsSavannahs.jpg"
-        },
-        {
-        "id": 51,
-        "name": "Munchkin",
-        "description": "Munchkin cats are famous for their short legs, giving them a unique appearance. They are friendly, playful, and social.",
-        "image": "https://static1.squarespace.com/static/5e8a2944d7ce562e250eb009/5e8a2e9094f18a06526980ee/63b5b1ad6ed39153b35680e4/1673474996168/raychan--KPDruCaU20-unsplash-1.jpg?format=1500w"
-        },
-        {
-        "id": 52,
-        "name": "Exotic Shorthair",
-        "description": "Exotic Shorthair cats are essentially short-haired Persians, known for their round faces and calm demeanor. They are affectionate and enjoy companionship.",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4Pg0_2bbQxgPATu_aEaGgSNAH_Dr13p9Leg&s"
-        },
-        {
-        "id": 53,
-        "name": "Ragamuffin",
-        "description": "Ragamuffins are large, fluffy cats with soft, plush coats. They are gentle, affectionate, and enjoy human interaction.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/f/f3/20050922AmarilloRes.jpg"
-        },
-        {
-        "id": 54,
-        "name": "Bengal",
-        "description": "Bengal cats are active, energetic, and love to play. They have a distinctive spotted or marbled coat that resembles a wild leopard.",
-        "image": "https://i0.wp.com/worldbengals.com/wp-content/uploads/2022/07/silver-bengal-cat-trooper.jpeg?fit=750%2C500&ssl=1"
-        },
-        {
-        "id": 55,
-        "name": "Persian",
-        "description": "Persian cats are long-haired, calm, and laid-back. They are friendly but tend to enjoy their own space and quiet environments.",
-        "image": "https://dollfacepersiankittens.com/wp-content/uploads/2018/07/persian-cat2.jpg"
-        },
-        {
-        "id": 56,
-        "name": "Devon Rex",
-        "description": "Devon Rex cats are known for their soft, curly coats and large ears. They are playful, friendly, and have an impish personality.",
-        "image": "https://media.istockphoto.com/id/1286349035/photo/two-adorable-and-funny-devon-rex-cats-with-blue-eyes-are-sitting-together.jpg?s=612x612&w=0&k=20&c=0QsOS5QdS6UyoPYYjCtcxiM5DeZtTx8xAjv0pExHOF8="
-        }
-    ]
- }
-          
-        
-      
-      
-    
-  
-  
+  "breeds": [
+    {
+      "id": 1,
+      "name": "Siamese",
+      "description": "They are vocal, social, and affectionate.",
+      "image": "https://missyandzeus.com/wp-content/uploads/2024/09/siamese-cats.png"
+    },
+    {
+      "id": 2,
+      "name": "Maine Coon",
+      "description": "They are known for their intelligence and playful nature.",
+      "image": "https://cdn-ilahdjb.nitrocdn.com/nFBgKJwKnUMTgpMIKltbJvrFssdnNcoU/assets/images/optimized/rev-d537999/lapa.shop/wp-content/uploads/2024/01/mco3.jpg.pagespeed.ce.L9q_qs1HOV-381x.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Persian",
+      "description": "They have a long, luxurious coat and a calm temperament.",
+      "image": "https://cdn.shopify.com/s/files/1/0589/8262/9516/t/23/assets/persian-cat-pictures-21hn32h4yempw0cu-1702031742033.jpg?v=1702031743"
+    },
+    {
+      "id": 4,
+      "name": "Ragdoll",
+      "description": "They are large, gentle, and affectionate.",
+      "image": "https://www.petcustomi.com/cdn/shop/articles/98.png?v=1712717570"
+    },
+    {
+      "id": 5,
+      "name": "Scottish Fold",
+      "description": "They are sweet, calm, and social.",
+      "image": "https://www.rover.com/blog/wp-content/uploads/2019/08/scottish-fold-white-683x1024.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Sphynx",
+      "description": "They are affectionate and enjoy human interaction.",
+      "image": "https://www.pawaii.com/cdn/shop/articles/pw-blog-All-You-Need-To-Know-About-Hairless-Cats-img2.jpg?v=1692339414"
+    },
+    {
+      "id": 7,
+      "name": "Abyssinian",
+      "description": "They are known for their short, ticked coat and playful nature.",
+      "image": "https://petinsurance.com.au/wp-content/uploads/2016/07/Abyssinian_961x558-1.jpg"
+    },
+    {
+      "id": 8,
+      "name": "British Shorthair",
+      "description": "They are calm and affectionate but independent.",
+      "image": "https://i.redd.it/at-what-age-will-he-reach-full-size-v0-0m16qt62ih0b1.jpg?width=3024&format=pjpg&auto=webp&s=8b5c0b960f33bc4bf6762c02c65f69947f7a74bb"
+    },
+    {
+      "id": 9,
+      "name": "Russian Blue",
+      "description": "They are calm and tend to form strong bonds with their owners.",
+      "image": "https://a-z-animals.com/media/2019/11/Russian-Blue-on-basket-1024x535.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Norwegian Forest Cat",
+      "description": "They are large, strong, and muscular.",
+      "image": "https://www.purina.co.uk/sites/default/files/styles/square_medium_440x440/public/2022-06/Norwegian%20Forest.2.jpg?h=ccdd1b23&itok=tJARI68s"
+    },
+    {
+      "id": 11,
+      "name": "Burmese",
+      "description": "They love to be the center of attention.",
+      "image": "https://www.zooplus.co.uk/magazine/wp-content/uploads/2021/09/Burmese.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Devon Rex",
+      "description": "They are small, with large ears and curly fur.",
+      "image": "https://cdn.shopify.com/s/files/1/2668/1922/files/devon-rex-portrait.jpg?v=1689016765"
+    },
+    {
+      "id": 13,
+      "name": "American Shorthair",
+      "description": "Thet are known for their muscular bodies and calm demeanor.",
+      "image": "https://www.thegreatcat.org/wp-content/uploads/2020/01/American-Shorthair-Cat-2-1250x834.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Manx",
+      "description": "They are friendly and playful.",
+      "image": "https://media.graphassets.com/resize=height:360,width:1280/output=format:webp/rZsW3LvHRaGGRBXMQ4dj?width=1280"
+    },
+    {
+      "id": 15,
+      "name": "Savannah",
+      "description": "They are large and have a striking spotted coat.",
+      "image": "https://namingcat.com/wp-content/uploads/2024/06/Savannah-Cat-Names.png"
+    },
+    {
+      "id": "aeba",
+      "name": "Lorna",
+      "image": "https://publish.purewow.net/wp-content/uploads/sites/2/2022/01/rarest-cat-breeds.jpg?resize=720%2C780",
+      "description": "They are calm"
+    }
+  ]
+}
