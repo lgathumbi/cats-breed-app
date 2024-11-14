@@ -41,6 +41,7 @@ function Contact() {
             id="name"
             name="name"
             required
+            placeholder="Enter your name"
             style={{
               width: '100%',
               padding: '10px',
@@ -48,6 +49,7 @@ function Contact() {
               border: '1px solid #ccc',
               fontSize: '16px',
             }}
+            aria-label="Full name"
           />
         </div>
 
@@ -68,6 +70,7 @@ function Contact() {
             id="email"
             name="email"
             required
+            placeholder="Enter your email address"
             style={{
               width: '100%',
               padding: '10px',
@@ -75,6 +78,7 @@ function Contact() {
               border: '1px solid #ccc',
               fontSize: '16px',
             }}
+            aria-label="Email address"
           />
         </div>
 
@@ -95,6 +99,7 @@ function Contact() {
             name="message"
             rows="5"
             required
+            placeholder="Write your message here"
             style={{
               width: '100%',
               padding: '10px',
@@ -103,6 +108,7 @@ function Contact() {
               fontSize: '16px',
               resize: 'vertical',
             }}
+            aria-label="Your message"
           />
         </div>
 
@@ -117,7 +123,10 @@ function Contact() {
             color: 'white',
             fontSize: '18px',
             cursor: 'pointer',
+            transition: 'background-color 0.3s',
           }}
+          onMouseOver={(e) => e.target.style.backgroundColor = '#e2574c'}
+          onMouseOut={(e) => e.target.style.backgroundColor = 'orangered'}
         >
           Send Message
         </button>
@@ -127,3 +136,5 @@ function Contact() {
 }
 
 export default Contact;
+
+
