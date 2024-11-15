@@ -85,10 +85,22 @@
       "image": "https://media.graphassets.com/resize=height:360,width:1280/output=format:webp/rZsW3LvHRaGGRBXMQ4dj?width=1280"
     },
     {
-      "id": "15",
-      "name": "Savannah",
-      "description": "They are large and have a striking spotted coat.",
-      "image": "https://namingcat.com/wp-content/uploads/2024/06/Savannah-Cat-Names.png"
+      "id": "b123",
+      "name": "bengal",
+      "image": "./assets/ramen/tonkotsu.jpg",
+      "description": "cute"
+    },
+    {
+      "id": "bd52",
+      "name": "bengal",
+      "image": "https://www.catster.com/wp-content/uploads/2023/11/Bengal-cat-sitting-and-looking-at-the-camera_Eric-Isselee_Shutterstock-800x550.jpg",
+      "description": "cute"
+    },
+    {
+      "id": "4837",
+      "name": "bengal",
+      "image": "https://www.catster.com/wp-content/uploads/2023/11/Bengal-cat-sitting-and-looking-at-the-camera_Eric-Isselee_Shutterstock-800x550.jpg",
+      "description": "cute"
     }
   ]
 }

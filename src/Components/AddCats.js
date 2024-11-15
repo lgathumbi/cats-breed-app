@@ -25,7 +25,7 @@ function AddCats() {
     };
 
     
-    fetch("http://localhost:3000/breeds", {
+    fetch("https://json-server-backend-hpd7.onrender.com/breeds", {
       method: "POST",
       headers: {
         "Content-Type": "application/json", 
